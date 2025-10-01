@@ -143,14 +143,15 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* background: radial-gradient(circle at center, #001122 0%, #000814 100%); */
-  overflow: hidden;
+  min-width: 228vh;
+  /* overflow: hidden; */
   position: relative;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   background: url("../public/gym1.jpg") no-repeat center center fixed;
   background-size: cover;
   font-family: Arial, sans-serif;
+  
 }
 
 /* Neon vertical beams */
@@ -158,7 +159,6 @@ body {
 .container::after {
   content: "";
   position: absolute;
-  width: 2px;
   height: 100%;
   top: 0;
   /* background: linear-gradient(180deg, transparent, #00f3ff, transparent); */
